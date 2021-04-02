@@ -1,4 +1,4 @@
-# Flatbuffers file generation for Arrow language implementations
+# Flatbuffers file generation
 
 | Language | Checked in | Built | Script | Doc | flatc source |
 | --- | --- | --- | --- | --- | --- |
@@ -8,6 +8,5 @@
 | Java (old) | | :heavy_check_mark:| | | Maven artifact | 
 | Java (new) |:heavy_check_mark: | |[update-flatbuffers.sh](update-flatbuffers.sh) | | | 
 | JS | :heavy_check_mark:| | | [DEVELOPING.md](../../js/DEVELOPING.md)| | 
-| Julia | ? | | | | | 
-| Rust | |:heavy_check_mark: | | | | 
+| Rust | |:heavy_check_mark: |[regen.sh](../../rust/arrow/regen.sh) | |Built from source with bazel | 
 ```
